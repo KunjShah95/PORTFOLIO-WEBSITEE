@@ -6,33 +6,107 @@
     <title>Kunj Shah Portfolio</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
-    <script src="js/main.js" defer></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <meta name="description" content="Kunj Shah - Developer, Cybersecurity Specialist & AI Enthusiast">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 </head>
 <body>
     <nav class="navbar">
         <div class="logo">KS</div>
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
         <ul class="nav-links">
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
+
     <header id="home">
         <div class="hero-content">
             <h1>Kunj Shah</h1>
-            <p class="tagline">Developer | Cybersecurity Specialist | AI Enthusiast</p>
+            <p class="tagline">Developer | Cybersecurity Enthusiast | AI Enthusiast</p>
             <div class="cta-buttons">
                 <a href="#projects" class="btn primary-btn">View My Work</a>
                 <a href="#contact" class="btn secondary-btn">Contact Me</a>
             </div>
         </div>
     </header>
-    <section id="about">
-        <!-- About section content -->
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="images/profile.jpg" alt="Kunj Shah">
+                </div>
+                <div class="about-text">
+                    <p>Hello! I'm Kunj Shah, a passionate developer with expertise in various programming languages and technologies. I specialize in web development, cybersecurity, and artificial intelligence.</p>
+                    <p>With a strong foundation in languages like Python, JavaScript, Go, C/C++, and Java, I enjoy solving complex problems and building innovative solutions.</p>
+                    <div class="about-buttons">
+                        <a href="files/resume.pdf" class="btn primary-btn" download>Download Resume</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
+
+    <section id="experience" class="section">
+        <div class="container">
+            <h2 class="section-title">My Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2023 - Present</div>
+                    <div class="timeline-content glass-card">
+                        <h3>Senior Software Engineer</h3>
+                        <h4>Tech Innovations Inc.</h4>
+                        <p>Leading development of AI-powered security solutions, managing a team of 5 developers, and implementing cutting-edge technologies to detect and mitigate cyber threats.</p>
+                        <div class="exp-tags">
+                            <span>Team Leadership</span>      
+                            <span>AI Security</span>           
+                            <span>Full Stack Development</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2021 - 2023</div>
+                    <div class="timeline-content glass-card">
+                        <h3>Cybersecurity Specialist</h3>
+                        <h4>SecureNet Solutions</h4>
+                        <p>Conducted security audits and penetration testing for enterprise clients, developed automated security monitoring tools, and led incident response for critical vulnerabilities.</p>
+                        <div class="exp-tags">
+                            <span>Penetration Testing</span>
+                            <span>Security Automation</span>
+                            <span>Incident Response</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2019 - 2021</div>
+                    <div class="timeline-content glass-card">
+                        <h3>Web Developer</h3>
+                        <h4>Digital Crafters LLC</h4>
+                        <p>Built responsive web applications for clients across various industries, implemented CI/CD pipelines, and optimized performance of existing systems.</p>
+                        <div class="exp-tags">
+                            <span>Frontend Development</span>
+                            <span>Backend Systems</span>
+                            <span>DevOps</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section id="projects" class="section">
         <div class="container">
             <h2 class="section-title">My Projects</h2>
@@ -101,6 +175,7 @@
             </div>
         </div>
     </section>
+
     <section id="skills" class="section">
         <div class="container">
             <h2 class="section-title">My Skills</h2>
@@ -178,7 +253,8 @@
                 </div>
             </div>
         </div>
-    </section></div></ul>
+    </section>
+    
     <section id="contact" class="section">
         <div class="container">
             <h2 class="section-title">Contact Me</h2>
@@ -190,7 +266,7 @@
                         <i class="fas fa-envelope"></i>
                         <div>
                             <h4>Email</h4>
-                            <p><a href="mailto:kunj.shah@example.com">kunj.shah@example.com</a></p>
+                            <p><a href="mailto:kunjkshah05@gmail.com">kunjkshah05@gmail.com</a></p>
                         </div>
                     </div>
                     <div class="contact-item">
@@ -206,6 +282,11 @@
                             <h4>Location</h4>
                             <p>New York, NY</p>
                         </div>
+                    </div>
+                    <div class="social-icons">
+                        <a href="https://github.com/KunjShah95" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://linkedin.com/in/kunj-shah" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://twitter.com/INDIA_KUNJ" target="_blank"><i class="fab fa-twitter"></i></a>
                     </div>
                 </div>
                 <div class="contact-form">
@@ -232,14 +313,17 @@
             </div>
         </div>
     </section>
+    
     <footer>
         <div class="social-links">
             <a href="https://github.com/KunjShah95" target="_blank"><i class="fab fa-github"></i></a>
-            <a href="https://linkedin.com/in/yourname" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://linkedin.com/in/kunj-shah" target="_blank"><i class="fab fa-linkedin"></i></a>
             <a href="https://twitter.com/INDIA_KUNJ" target="_blank"><i class="fab fa-twitter"></i></a>
-            <a href="mailto:@gmail.kunjkshah05com"><i class="fas fa-envelope"></i></a>
+            <a href="mailto:kunjkshah05@gmail.com"><i class="fas fa-envelope"></i></a>
         </div>
         <p>&copy; 2025 Kunj Shah. All rights reserved.</p>
     </footer>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
